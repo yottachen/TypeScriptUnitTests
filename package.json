@@ -1,0 +1,24 @@
+{
+  "name": "@yotta/type_script_unit_tests",
+  "version": "1.0.0",
+  "repository": "https://github.com/yottachen/TypeScriptUnitTests.git",
+  "author": "Yotta Chen",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint 'src/**/*.ts' 'test/**/*.ts'",
+    "lintfix": "tslint 'src/**/*.ts' 'test/**/*.ts' --fix",
+    "test": "jest --forceExit --coverage --verbose --detectOpenHandles"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.5",
+    "@types/node": "^10.12.0",
+    "husky": "^1.1.2",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.1.3"
+  }
+  
+}
